@@ -3,10 +3,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { JumpDirective } from './jump.directive';
+import { FadeInOutDirective } from './fade-in-out.directive';
 
 @NgModule({
-  declarations: [AppComponent, JumpDirective],
+  declarations: [AppComponent, FadeInOutDirective],
   imports: [BrowserModule, BrowserAnimationsModule],
   providers: [],
   bootstrap: [AppComponent],
